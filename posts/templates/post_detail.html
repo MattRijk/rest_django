@@ -1,0 +1,7 @@
+<h1>Post Detail</h1>
+{{ post.title }}<br>
+{{ post.content }}<br>
+<br />
+
+<a href="{% url 'update' post.slug %}">
+<button>Update</button></a>
